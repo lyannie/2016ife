@@ -1,11 +1,12 @@
-*{
+* {
 	box-sizing: content-box;
-}
-body{
 	margin: 0;
 	padding: 0;
 }
-.wrapper{
+body {
+	font-family: "Microsoft YaHei",微软雅黑;
+}
+.wrapper {
 	margin: 20px;
 	padding: 20px;
 	background-color: #EEE;
@@ -13,34 +14,41 @@ body{
 	overflow: auto;
 
 }
-.container{
+.container {
 	padding: 20px;
 	background-color: #FFF;
 	border: 1px solid #CCC;
 }
-
-.team{
+.team {
 	width: 160px;
+	height: 80px;
 	float: left;
-
 }
-.person{
+.person {
 	width: 80px;
+	height: 360px;
 	float: right;
-
 }
-article{
-	position: absolute;
-	left: 260px;
-	right: 180px;
+article {
+	margin: 0 140px 0 220px;
+	line-height: 25px;
 }
-#imgTeam{
+#imgTeam {
 	float: left;
 }
-h1{
+h1 {
 	float: right;
 }
-img{
+img {
+	margin-bottom: 10px;
 	width: 80px;
 	height: 80px;
+}
+p{
+	margin: 10px;
+}
+.wrapper{
+	content: "";
+	display: block;
+	clear: both;
 }
