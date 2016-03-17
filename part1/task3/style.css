@@ -1,0 +1,46 @@
+*{
+	box-sizing: content-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	margin: 20px;
+	padding: 20px;
+	background-color: #EEE;
+	border: 1px solid #CCC;
+	overflow: auto;
+
+}
+.container{
+	padding: 20px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+}
+
+.team{
+	width: 160px;
+	float: left;
+
+}
+.person{
+	width: 80px;
+	float: right;
+
+}
+article{
+	position: absolute;
+	left: 260px;
+	right: 180px;
+}
+#imgTeam{
+	float: left;
+}
+h1{
+	float: right;
+}
+img{
+	width: 80px;
+	height: 80px;
+}
