@@ -12,7 +12,6 @@ body {
 	background-color: #EEE;
 	border: 1px solid #CCC;
 	overflow: auto;
-
 }
 .container {
 	padding: 20px;
@@ -35,6 +34,7 @@ article {
 }
 #imgTeam {
 	float: left;
+	vertical-align: top;
 }
 h1 {
 	float: right;
@@ -44,11 +44,6 @@ img {
 	width: 80px;
 	height: 80px;
 }
-p{
+p {
 	margin: 10px;
-}
-.wrapper{
-	content: "";
-	display: block;
-	clear: both;
 }
