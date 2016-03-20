@@ -7,6 +7,9 @@ body {
 	font-family: "Microsoft YaHei", 微软雅黑;
 	font-size: 16px;
 }
+.img-y {
+	width: 100%;
+}
 .nav-y {
 	overflow: auto;
 }
@@ -16,7 +19,7 @@ body {
 	display: block;
 	float: right;
 }
-.navItem-y {
+.li-y {
 	display: inline;
 	width: 100px;
 	height: 64px;
@@ -29,25 +32,94 @@ body {
 	display: block;
 	text-align: center;
 }
-.active {
+.active-y {
 	color: #f01400;
 	border-bottom: 4px solid #f01400;
 }
-#navLogin {
+#navLogin-y {
 	color: #f01400;
 }
-#icon1 {
-	margin:10px 20px 0 50px; 
-	width: 50px;
+#logo-y {
+	margin:15px 15px 0 60px; 
+	width: 35px;
 	display: block;
 	float: left;
 }
+#login-y {
+	width: 15px;
+}
 .span-y {
-	font-size: 28px;
+	font-size: 24px;
+	color: #666;
 	height: 64px;
 	line-height: 64px;
 }
-.img-y {
-	max-width: 100%;
-	height: auto;
+.topBanner-y {
+	position: relative;
+}
+.imgContainer-y {
+	height: 730px;
+	overflow: hidden;
+}
+.h1-y{
+	font-size: 64px;
+	font-weight: normal;
+	color: #fff;
+	position: absolute;
+	top: 230px;
+	left: 130px;
+}
+.p-y {
+	font-size: 24px;
+	color: #fff;
+	position: absolute;
+	left: 140px;
+}
+#p1-y {
+	top: 325px;
+}
+#p2-y {
+	top: 360px;
+}
+.button-y {
+	font-size: 32px;
+	font-family: "Microsoft YaHei",微软雅黑;
+	letter-spacing: 2px;
+	width: 360px;
+	height: 72px;
+	background-color: #e44336;
+	border: none;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	position: absolute;
+	top:450px;
+	left: 140px;
+}
+.intro-y {
+	overflow: auto;
+}
+.infoBlock-y {
+	width: 25%;
+	height: 250px;
+	float: left;
+}
+.imgInfo-y {
+	width: 50px;
+	margin: 50px 150px 50px ;
+}
+.pInfo-y {
+	height: 55px;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-right: 2px solid #aaa;
+	text-align: center;
+}
+#pInfo4-y {
+	border: #fff; 
+}
+.info-y {
+	font-size: 15px;
+	color: #aaa;
 }
