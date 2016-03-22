@@ -1,8 +1,17 @@
+.container {
+	width: 100%;
+	height: 640px;
+	overflow: hidden;
+}
 .grayBlock {
 	width: 400px;
 	height: 200px;
 	background-color: #ccc;
 	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 220px;
+	clear: both;
 }
 .circle {
 	width: 50px;
