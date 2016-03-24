@@ -1,29 +1,27 @@
-.container {
-	width: 100%;
-	height: 640px;
-	overflow: hidden;
-}
 .grayBlock {
 	width: 400px;
 	height: 200px;
 	background-color: #ccc;
-	position: relative;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 220px;
-	clear: both;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
 }
-.circle {
+#cLeft {
 	width: 50px;
 	height: 50px;
 	background-color: #fc0;
-	position: absolute;
-}
-#cLeft {
-	border-radius: 0 0 50px 0;
+	-webkit-border-radius: 0 0 50px 0;
 }
 #cRight {
-	border-radius: 50px 0 0 0;
-	right: 0;
-	bottom: 0;
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+	-webkit-border-radius: 50px 0 0 0;
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	margin-top: -50px;
+	margin-left: -50px; 
 }
