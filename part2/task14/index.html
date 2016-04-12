@@ -49,11 +49,9 @@ var aqiData = [
     for(var j = 0; j < aqiData.length; j++){
       if(aqiData[j][1] >= 60){
         var li = document.createElement("li");
-        var lable = document.createElement("lable");
-        ul.appendChild(lable);
-        ul.appendChild(li);
-        lable.innerHTML = "第" + j + "名";  
-        li.innerHTML = aqiData[j][0];
+        ul.appendChild(li);  
+        var i = j + 1;
+        li.innerHTML = "第" + i + "名: " + aqiData[j][0] + " " + aqiData[j][1];
       }
     }
   
